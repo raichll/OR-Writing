@@ -285,8 +285,6 @@ cd ~/.codex/skills/or-writing-polishing
 git pull
 ```
 
-The fixed path `C:\Users\15010\.codex\skills\or-writing-polishing` is specific to one Windows account. For other computers, use the environment-aware paths above.
-
 ## Skill Metadata
 
 The skill is registered as:
