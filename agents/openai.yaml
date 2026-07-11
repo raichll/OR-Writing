@@ -1,0 +1,4 @@
+﻿display_name: OR Writing & Polishing
+short_description: Build, polish, audit, and visualize method-driven OR manuscripts.
+default_prompt: Use OR writing and polishing to structure the manuscript, align gaps and contributions, strengthen model/algorithm/experiment sections, design publication-ready figures, and remove report-like or AI-like prose.
+
