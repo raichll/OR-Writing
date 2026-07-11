@@ -241,18 +241,51 @@ For a smaller task, such as polishing one paragraph, Codex can use only the rele
 
 ## Installation
 
-Clone this repository into your Codex skills directory:
+Clone this repository into your Codex skills directory. The exact path depends on the operating system and user account.
+
+### Windows PowerShell
+
+If GitHub SSH is configured:
 
 ```powershell
-git clone git@github.com:raichll/OR-Writing.git C:\Users\15010\.codex\skills\or-writing-polishing
+git clone git@github.com:raichll/OR-Writing.git "$env:USERPROFILE\.codex\skills\or-writing-polishing"
 ```
 
-If a local copy already exists, update it with Git:
+If SSH is not configured, use HTTPS:
 
 ```powershell
-cd C:\Users\15010\.codex\skills\or-writing-polishing
+git clone https://github.com/raichll/OR-Writing.git "$env:USERPROFILE\.codex\skills\or-writing-polishing"
+```
+
+To update an existing local copy:
+
+```powershell
+cd "$env:USERPROFILE\.codex\skills\or-writing-polishing"
 git pull
 ```
+
+### macOS / Linux
+
+If GitHub SSH is configured:
+
+```bash
+git clone git@github.com:raichll/OR-Writing.git ~/.codex/skills/or-writing-polishing
+```
+
+If SSH is not configured, use HTTPS:
+
+```bash
+git clone https://github.com/raichll/OR-Writing.git ~/.codex/skills/or-writing-polishing
+```
+
+To update an existing local copy:
+
+```bash
+cd ~/.codex/skills/or-writing-polishing
+git pull
+```
+
+The fixed path `C:\Users\15010\.codex\skills\or-writing-polishing` is specific to one Windows account. For other computers, use the environment-aware paths above.
 
 ## Skill Metadata
 
